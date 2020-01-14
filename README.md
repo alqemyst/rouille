@@ -104,3 +104,12 @@ rouille::start_server(..., move |request| {
     // middleware 3
 });
 ```
+
+### Installation
+
+Add this to the `Cargo.toml` file of your project:
+
+```toml
+[dependencies]
+tiny_http = { git = "https://github.com/alqemyst/rouille.git" }
+```
